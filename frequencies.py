@@ -4,6 +4,9 @@
 def frequencies(items):
     frequencies = {}
 
+    if len(items) == 0
+        return{}
+
     for i in range(len(items)):
         items[i] = str(items[i])
 
@@ -18,8 +21,4 @@ def frequencies(items):
     print(count)
     print(temp)
 
-    #frequencies[items[i]] = count
     return frequencies
-
-print(frequencies(['a', 'b', 'a', 'b', 'b', 'c']))
-print(frequencies([100, 'Hello', '100', '100', 100]))
