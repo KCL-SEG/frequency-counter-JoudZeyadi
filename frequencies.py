@@ -4,8 +4,8 @@
 def frequencies(items):
     frequencies = {}
 
-    if len(items) == 0
-        return{}
+    if len(items) == 0:
+        return frequencies
 
     for i in range(len(items)):
         items[i] = str(items[i])
@@ -18,7 +18,5 @@ def frequencies(items):
             if j == i:
                 count += 1
         frequencies[i] = count
-    print(count)
-    print(temp)
 
     return frequencies
